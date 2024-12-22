@@ -1,10 +1,11 @@
 from openai import OpenAI
 import os
 
+# 'export OPEN_API_KEY=<key>' to set key before running this script
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=os.environ.get("OPENAI_API_KEY")
 )
-# #TODO export api key in temrinal to run
+
 
 prompt = "Give me a motivational quote"
 response = client.chat.completions.create(
