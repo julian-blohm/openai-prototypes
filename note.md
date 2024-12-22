@@ -1,4 +1,4 @@
-setup python virtual environment:
+setup python virtual environment in the specific project folders:
 ```python3 -m venv ./venv```
 
 start virtual environment
