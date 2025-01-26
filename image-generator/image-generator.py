@@ -14,4 +14,3 @@ def generate_picture():
 image_url = generate_picture()
 
 print("Generated image URL: ", image_url)
-# get output
